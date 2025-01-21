@@ -9,7 +9,7 @@ import { ContextWordWrapper } from '../models/context-word-wrapper';
 })
 export class TextAnalyseService {
   
-  private tokenize_text_url = 'http://127.0.0.1:5000/api/shared/tokenize/'
+  private tokenize_text_url = 'http://127.0.0.1:5001/api/shared/tokenize/'
 
   httpOptions = {
     headers: new HttpHeaders({

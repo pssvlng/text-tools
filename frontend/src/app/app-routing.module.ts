@@ -9,6 +9,7 @@ const routes: Routes = [
   { path: '', redirectTo: '/text-analyse', pathMatch: 'full' },
   { path: 'text-analyse', component: TextAnalyseComponent },
   { path: 'text-analyse-url', component: TextAnalyseUrlComponent },  
+  { path: 'image', component: ImageViewerComponent }
 ];
 
 @NgModule({

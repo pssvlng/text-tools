@@ -14,7 +14,7 @@ import { WeightedWord } from '../models/weighted-word';
 })
 export class WordnetService {
 
-  private wordnet_url = 'http://127.0.0.1:5000/api/dict/';  // URL to web api
+  private wordnet_url = 'http://127.0.0.1:5001/api/dict/';  // URL to web api
 
   httpOptions = {
     headers: new HttpHeaders({
